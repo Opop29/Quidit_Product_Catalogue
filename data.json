@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "charot",
+        "price": 23.00,
+        "description": "para sa rabbit dilini para nimo"
+    }, {
+        "id": 2,
+        "name": "charot1",
+        "price": 213.00,
+        "description": "para sa rabbit dilini para nimo"
+    }, {
+        "id": 3,
+        "name": "charot2",
+        "price": 223.00,
+        "description": "para sa rabbit dilini para nimo"
+    }, {
+        "id": 4,
+        "name": "charot3",
+        "price": 323.00,
+        "description": "para sa rabbit dilini para nimo"
+    }
+]
