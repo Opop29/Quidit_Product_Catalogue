@@ -1,23 +1,20 @@
 [
     {
-        "id": 1,
-        "name": "charot",
-        "price": 23.00,
-        "description": "para sa rabbit dilini para nimo"
-    }, {
-        "id": 2,
-        "name": "charot1",
-        "price": 213.00,
-        "description": "para sa rabbit dilini para nimo"
-    }, {
-        "id": 3,
-        "name": "charot2",
-        "price": 223.00,
-        "description": "para sa rabbit dilini para nimo"
-    }, {
-        "id": 4,
-        "name": "charot3",
-        "price": 323.00,
-        "description": "para sa rabbit dilini para nimo"
+        "product_name": "Product A",
+        "product_description": "High-quality product with advanced features.",
+        "product_price": 99.99,
+        "product_dateAdded": "2024-02-06"
+    },
+    {
+        "product_name": "Product B",
+        "product_description": "Affordable and durable product for everyday use.",
+        "product_price": 49.99,
+        "product_dateAdded": "2024-02-07"
+    },
+    {
+        "product_name": "Product C",
+        "product_description": "Innovative design and cutting-edge technology.",
+        "product_price": 149.99,
+        "product_dateAdded": "2024-02-08"
     }
 ]
