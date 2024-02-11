@@ -9,7 +9,7 @@ fetch('data.json')
         <p>${product.product_description}</p>
         <p>Price: $${product.product_price}</p>
         <p>Date Added: ${product.product_dateAdded}</p>
-        <p>Epiration Date: ${product.product_ExpirationDate}</p>
+        <p>Expiration Date: ${product.product_ExpirationDate}</p>
         <hr>
       `;
       productListElement.appendChild(productItem);
