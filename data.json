@@ -1,37 +1,36 @@
 [
     {
-        "product_name": "Graphite Pencils",
-        "product_description": "Graphite pencils are made of a mixture of graphite and clay, encased in wood. ",
-        "product_price": 99.98,
+        "product_name": "Cheesy Puffs",
+        "product_description": "Cheesy puffs are made of a mixture of cheese powder and cornmeal, giving them a crunchy texture and cheesy flavor.",
+        "product_price": 3.99,
         "product_dateAdded": "2024-02-06",
-        "product_dateAdded": "2028-02-06"
+        "product_ExpirationDate": "2027-02-06"
     },
     {
-        "product_name": "Charcoal Sticks",
-        "product_description": " Charcoal sticks are made from burnt wood and come in various forms, including vine and compressed charcoal.",
-        "product_price": 49.44,
+        "product_name": "Chocolate-covered Marshmallows",
+        "product_description": "Chocolate-covered marshmallows are made from fluffy marshmallows coated in rich chocolate.",
+        "product_price": 2.49,
         "product_dateAdded": "2024-04-07",
         "product_ExpirationDate": "2027-02-06"
     },
     {
-        "product_name": "Colored Pencils",
-        "product_description": " Colored pencils are composed of a pigment core encased in wood. They come in a wide range of colors and can be used for detailed drawing, coloring, and layering.",
-        "product_price": 149.49,
+        "product_name": "Rainbow Gummy Bears",
+        "product_description": "Rainbow gummy bears are chewy candies in various fruit flavors and vibrant colors.",
+        "product_price": 4.99,
         "product_dateAdded": "2024-02-08",
         "product_ExpirationDate": "2029-02-06"
     },
     {
-        "product_name": "Pastels (Soft Pastels, Oil Pastels)",
-        "product_description": " Pastels are sticks made from pigment and a binder. Soft pastels have a high pigment concentration and a powdery texture, making them ideal for blending and layering. Oil pastels have a creamy consistency and can be applied thickly or thinly to create vibrant, textured effects.",
-        "product_price": 128.90,
+        "product_name": "Caramel Popcorn",
+        "product_description": "Caramel popcorn is made by coating popped corn kernels with a sweet caramel glaze.",
+        "product_price": 3.89,
         "product_dateAdded": "2024-09-08",
         "product_ExpirationDate": "2029-02-06"
-
     },
     {
-        "product_name": "Ink (Pen and Ink, Brush and Ink)",
-        "product_description": "Ink is a liquid or paste containing pigments or dyes used for drawing and writing. ",
-        "product_price": 58.90,
+        "product_name": "Sour Candy Strips",
+        "product_description": "Sour candy strips are tangy candies in various fruit flavors, perfect for a sour-sweet treat.",
+        "product_price": 1.99,
         "product_dateAdded": "2024-11-08",
         "product_ExpirationDate": "2025-02-9"
     }
