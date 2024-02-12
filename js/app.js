@@ -4,10 +4,10 @@ fetch('data.json')
     const productListElement = document.getElementById("productlist");
     data.forEach(product => {
       const productItem = document.createElement("div");
-      productItem.classList.add('col-md-4', 'mb-4'); // Adding Bootstrap grid classes
-
-      let clickCount = 0; // Initialize click counter for each product
-
+      // Adding Bootstrap grid classes
+      productItem.classList.add('col-md-4', 'mb-4'); 
+      // Initialize click counter for each product
+      let clickCount = 0; 
       productItem.innerHTML = `
         <div class="card">
           <div class="card-body">
@@ -21,14 +21,16 @@ fetch('data.json')
           </div>
         </div>
       `;
-
       productListElement.appendChild(productItem);
-
-      // Function to handle click event for the "Add to Cart" button
-      window[`addToCart${product.product_name}`] = function() {
-        clickCount++;
-        document.getElementById(`clickCount${product.product_name}`).innerText = clickCount;
-      }
     });
   })
   .catch(error => console.error('Error fetching data:', error));
+
+// Define addToCart function globally
+function addToCart(productName) {
+  let clickCount = parseInt(document.getElementById(`clickCount${productName}`).innerText);
+  clickCount++;
+  document.getElementById(`clickCount${productName}`).innerText = clickCount;
+}
+
+
